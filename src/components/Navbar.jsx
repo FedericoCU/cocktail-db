@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <Link to='/' >
+        <Link to='/cocktail-db' >
           <div className="image-container">
             <img src={icon} alt="icon" className='logo-icono'/>
             <img src={logo} alt="logo" className="logo" />
@@ -28,7 +28,7 @@ const Navbar = () => {
         </Link>
         <ul className='nav-links'>
           <li>
-            <Link to='/'>Home</Link>
+            <Link to='/cocktail-db'>Home</Link>
           </li>
           <li>
             <Link to='/about'>About</Link>
