@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar/>
       <Switch>
-        <Route exact path='/'>
+        <Route exact path='/cocktail-db'>
           <Home/>
         </Route>
         <Route exact path='/about'>
