@@ -82,7 +82,7 @@ const SingleCocktail = () => {
   const { name, image, info, category, glass, instructions, ingredients } = cocktail;
   return (
     <section className='section cocktail-section'>
-      <Link to='/' className='btn btn-primary'>Back home</Link>
+      <Link to='/cocktail-db' className='btn btn-primary'>Back home</Link>
       <h2 className={darkTheme?"section-title title-color-change":"section-title"}>{name}</h2>
       <div className={darkTheme?"drink title-color-change":"drink"}>
         <img src={image} alt={name} className='cocktail-border'/>
