@@ -1,7 +1,7 @@
 import React from 'react';
 import Loading from '../components/Loading';
 import { useParams, Link } from 'react-router-dom';
-import { FaChevronRight } from "react-icons/fa";
+import { FaChevronRight} from "react-icons/fa";
 import { useGlobalContext } from '../context';
 
 

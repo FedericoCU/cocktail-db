@@ -39,7 +39,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: var(--mainBlack);
-  background: var(--mainBackground);
+  background: #EBEEEE;
   line-height: 1.4;
   font-size: 1rem;
   font-weight: 300;
@@ -132,13 +132,16 @@ Navbar
 ======
 */
 .navbar {
-  background: var(--mainWhite);
+  background-image: url("./images/back1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 5rem;
   display: flex;
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
   box-shadow: var(--lightShadow);
 }
+
 .nav-center {
   display: flex;
   justify-content: space-between;
@@ -150,20 +153,26 @@ Navbar
 .nav-links {
   display: flex;
   align-items: center;
+  margin-left: 5.5rem;
 }
 .nav-links a {
   text-transform: capitalize;
   display: inline-block;
   font-weight: bold;
-  margin-right: 0.5rem;
-  font-weight: 400;
+  margin-right: 0.2rem;
+  font-weight: 900;
   letter-spacing: 2px;
-  font-size: 1.2rem;
-  padding: 0.25rem 0.5rem;
+  font-size: 1.4rem;
+  padding: 0.30rem 0.7rem;
   transition: var(--mainTransition);
 }
 .nav-links a:hover {
   color: var(--primaryColor);
+}
+
+.social-media{
+  display: flex;
+  margin-left: 4.5rem;
 }
 
 .image-container {
@@ -244,7 +253,7 @@ Cocktail
 */
 
 .cocktail {
-  background: var(--mainWhite);
+  background: #C8F4CA;
   margin-bottom: 2rem;
   box-shadow: var(--lightShadow);
   transition: var(--mainTransition);
@@ -260,12 +269,12 @@ Cocktail
   object-fit: cover;
   border-top-left-radius: var(--mainBorderRadius);
   border-top-right-radius: var(--mainBorderRadius);
-  border: 4px solid;
+  border: 9px solid;
   border-color: #476a2e;
 }
 .cocktail-footer {
   padding: 1.5rem;
-  border: 4px solid;
+  border: 9px solid;
   border-color: #476a2e;
 }
 .cocktail-footer h3,
@@ -299,9 +308,7 @@ Form
   width: var(--smallWidth);
   margin: 0 auto;
   max-width: var(--maxWidth);
-  background-image: url("./images/back1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #C8F4CA;
   padding: 2rem 2.5rem;
   text-transform: capitalize;
   border-radius: var(--mainBorderRadius);
@@ -324,7 +331,7 @@ Form
   width: 100%;
   border: 2px solid;
   border-color: #476a2e;
-  background: #dcdcdc;
+  background: #e5eaf5;
   border-radius: var(--mainBorderRadius);
   padding: 0.5rem;
   font-size: 1.2rem;
